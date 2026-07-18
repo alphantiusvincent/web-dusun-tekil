@@ -1,0 +1,20 @@
+{
+  "short_name": "Dokgarut",
+  "name": "Dusun Dokgarut — Desa Watukarung, Pacitan",
+  "icons": [
+    {
+      "src": "logo-desa-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo-desa-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#174E80",
+  "background_color": "#F7F9FB"
+}

@@ -1,0 +1,142 @@
+/* Background Hero Section */
+.hero-section {
+  background-image: url('./images/businesswoman-using-tablet-analysis.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  padding: 100px 0;
+}
+
+/* Search Form */
+.custom-form .input-group {
+  background: #fff;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form .form-control {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.custom-form .input-group-text {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+/* Featured Section */
+.featured-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.custom-block {
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-block:hover {
+  transform: translateY(-5px);
+}
+
+.custom-block-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0 0 20px 20px;
+}
+
+/* Overlay Style */
+.custom-block-overlay {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.custom-block-overlay .custom-block-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.section-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.7));
+  z-index: 1;
+}
+
+.custom-block-overlay-text {
+  position: absolute;
+  z-index: 2;
+  padding: 2rem;
+  bottom: 0;
+  color: white;
+}
+
+/* Social Share & Icons */
+.social-share {
+  margin-top: auto;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+  padding: 0 2rem 1rem;
+}
+
+.social-icon {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.social-icon-item .social-icon-link {
+  font-size: 1.2rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icon-item .social-icon-link:hover {
+  color: #ffc107;
+}
+
+.custom-icon {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.custom-icon:hover {
+  color: #ffc107;
+}
+
+/* Badge Colors */
+.badge.bg-design {
+  background-color: #6f42c1;
+}
+
+.badge.bg-finance {
+  background-color: #20c997;
+}
+
+/* Button */
+.custom-btn {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.custom-btn:hover {
+  background-color: #0b5ed7;
+}
