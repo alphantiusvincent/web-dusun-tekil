@@ -4,7 +4,7 @@ import { AspectRatio, Box, Grid, Heading, SimpleGrid, Stack, Text } from '@chakr
 const MAPS_EMBED_SRC =
   'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3588.9464305849383!2d110.98484257500944!3d-8.215884191816519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTInNTcuMiJTIDExMMKwNTknMTQuNyJF!5e1!3m2!1sid!2sid!4v1784437238456!5m2!1sid!2sid';
 
-// Data administratif tingkat DUSUN (penduduk 164 jiwa = hasil Sensus 2025
+// Data administratif tingkat DUSUN (penduduk 133 jiwa = hasil Sensus 2025
 // khusus Dusun Tekil, bukan total Desa Watukarung).
 const DATA_DUSUN = [
   { label: 'Nama Resmi', value: 'Dusun Tekil' },
@@ -12,16 +12,16 @@ const DATA_DUSUN = [
   { label: 'Kecamatan', value: 'Pringkuku' },
   { label: 'Kabupaten', value: 'Pacitan' },
   { label: 'Provinsi', value: 'Jawa Timur' },
-  { label: 'Penduduk', value: '170 jiwa — Sensus 2026' },
+  { label: 'Penduduk', value: '133 jiwa — Sensus 2025' },
 ];
 
 const BATAS_DUSUN = [
 
-  { arah: 'Utara', wilayah: 'Desa Dersono' },
-  { arah: 'Selatan', wilayah: 'Dusun Karangnongko' },
-  { arah: 'Barat', wilayah: 'Desa Dersono' },
+  { arah: 'Utara', wilayah: 'Dusun Dokgarut' },
+  { arah: 'Selatan', wilayah: 'Samudera Hindia' },
+  { arah: 'Barat', wilayah: 'Dusun Karangnongko' },
   { arah: 'Timur', wilayah: 'Desa Jlubang' },
-  { arah: 'Tenggara', wilayah: 'Dusun Tekil' }
+
 ];
 
 const DataWilayah = () => {

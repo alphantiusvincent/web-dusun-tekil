@@ -11,7 +11,6 @@ import ckg from '../assets/news/ckg.png';
 
 import fotoKasap from '../assets/travel/kasap.jpg';
 import fotoCokel from '../assets/travel/cokel.jpg';
-import fotoCamping from '../assets/travel/camping.jpg';
 import fotoParkir from '../assets/travel/parkir.jpg';
 import fotoPakKus from '../assets/travel/pakkus.jpg';
 import benteng from '../assets/travel/benteng mati.jpg';
@@ -25,6 +24,7 @@ import waduk from '../assets/travel/waduk.jpg';
 import balai from '../assets/travel/balai-tekil.jpg';
 import ams from '../assets/travel/ams.png';
 import masjid from '../assets/travel/masjid.jpg';
+import masjidTekil from '../assets/travel/masjid-tekil.jpg';
 import wan from '../assets/travel/wan.jpg';
 import warungTatik from '../assets/travel/warung-tatik.jpg';
 import rumahRw from '../assets/travel/rumah-rw.jpg';
@@ -53,7 +53,7 @@ import logoTani from '../assets/supports/tani-removebg-preview.png';
 // Statistik kunci dusun
 // ---------------------------------------------------------------------------
 export const stats = [
-  { value: '170', label: 'Jiwa Penduduk', note: 'Sensus 2025' },
+  { value: '133', label: 'Jiwa Penduduk', note: 'Sensus 2025' },
   { value: '6', label: 'Titik Wisata & Fasilitas', note: 'Pantai, sungai & camping' },
   { value: '7', label: 'Lembaga Aktif', note: 'Penggerak dusun' },
 ];
@@ -103,16 +103,7 @@ const news = [
     caption:
       'Edukasi pembukuan keuangan dasar bagi sepuluh UMKM di kawasan Pantai Kasap, dirangkai dengan program branding digital untuk mendukung promosi warung warga kepada wisatawan.',
   },
-  {
-    id: 'posyandu-putri-ceria',
-    category: 'kesehatan',
-    title: 'Posyandu Remaja "Putri Ceria"',
-    date: '3 Agustus 2024',
-    dateISO: '2024-08-03',
-    image: k1,
-    caption:
-      'Posyandu remaja yang aktif sejak 2018 sebagai wadah pembinaan kesehatan remaja — pemantauan gizi, konseling, dan edukasi kesehatan reproduksi.',
-  },
+
 
   {
     id: 'tayub-kenul',
@@ -179,13 +170,7 @@ export const TravelPlace = [
     location:
       'https://www.google.com/maps/place/Penyedia+Layanan+Parkir+dan+Kamar+Mandi+Bersih+Pak+Kus+Pantai+Kasap%2FSungai+Cokel/@-8.2380101,110.9834565,19.14z/data=!4m6!3m5!1s0x2e7bdd004a3137b5:0xb461765b3ab0f614!8m2!3d-8.2380677!4d110.9842173!16s%2Fg%2F11vjxw9zfn',
   },
-  {
-    title: 'Camping Area Watu Payung "Batu Cinta"',
-    category: 'Camping',
-    image: fotoCamping,
-    location:
-      'https://www.google.com/maps/place/Camping+Area+Watu+Payung+%22Batu+Cinta%22/@-8.2388314,110.9834905,16.93z/data=!4m6!3m5!1s0x2e7bddd2205de849:0x63f179765fe9181f!8m2!3d-8.241214!4d110.9857759!16s%2Fg%2F11v0sn374n',
-  },
+ 
   {
     title: "Sito's Pizza Pizza & Bar",
     category: 'Kuliner',
@@ -272,22 +257,22 @@ export const TravelPlace = [
     title: 'Warung Bu Tatik',
     category: 'Kuliner',
     image: warungTatik,
-    location: 'https://maps.app.goo.gl/kkYyL1aWdRQ4u2ww5?g_st=ic',
+    location: 'https://maps.app.goo.gl/kUA9uV9jBdpyQ9UU7?g_st=ic',
   },
   {
-    title: 'Rumah Pak RW',
+    title: 'Rumah Pak RW Tekil',
     category: 'Fasilitas',
     image: rumahRw,
     location: 'https://maps.app.goo.gl/3LCbbBnnNgQBsRYSA?g_st=ic',
   },
   {
-    title: 'Rumah Pak Kasun',
+    title: 'Rumah Pak Kasun Tekil',
     category: 'Fasilitas',
     image: rumahKasun,
     location: 'https://maps.app.goo.gl/JQP9bbKwYdGyxnv96?g_st=ic',
   },
   {
-    title: 'Rumah Pak RT',
+    title: 'Rumah Pak RT Tekil',
     category: 'Fasilitas',
     image: rumahRt,
     location: 'https://maps.app.goo.gl/FBDQXcsRqoGqdXAb6?g_st=ic',
@@ -351,6 +336,12 @@ export const TravelPlace = [
     category: 'Kuliner',
     image: kedaiAfika,
     location: 'https://maps.app.goo.gl/B51BtLmzBbXFjkXW9?g_st=ic',
+  },
+  {
+    title: 'Masjid Tekil',
+    category: 'Fasilitas',
+    image: masjidTekil,
+    location: 'https://maps.app.goo.gl/kkYyL1aWdRQ4u2ww5?g_st=ic',
   },
 ];
 

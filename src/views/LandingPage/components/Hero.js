@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
 import { motion, useReducedMotion } from 'framer-motion';
-import heroImage from '../../../assets/hero-bg.jpg';
+import heroImage from '../../../assets/backgroundfix.jpg';
 import { stats } from '../../../variables/general';
 
 const EASE = [0.21, 0.47, 0.32, 0.98];
@@ -98,7 +98,7 @@ const Hero = () => {
                 fontSize={{ base: '17px', md: '18px' }}
                 color="whiteAlpha.900"
               >
-                Dusun pesisir berpenduduk 164 jiwa — rumah bagi ombak kelas
+                Dusun pesisir berpenduduk 133 jiwa — rumah bagi ombak kelas
                 dunia, pantai karang, dan kehangatan kampung nelayan.
               </Text>
             </motion.div>
