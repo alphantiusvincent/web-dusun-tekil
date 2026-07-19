@@ -1,7 +1,6 @@
 // Sumber data konten situs — komponen TIDAK hardcode konten (lihat DESIGN-SPEC.md §6).
 // Gambar berita memakai versi terkompresi di src/assets/news (semula PNG 0,4–1 MB per file).
 
-import k1 from '../assets/news/k1.jpg';
 import posyanduRemaja from '../assets/news/posyandu-remaja.jpg';
 import inggrisTekil from '../assets/news/inggris-tekil.jpg';
 import umkmKasap from '../assets/news/umkm-kasap.jpg';

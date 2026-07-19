@@ -1,8 +1,8 @@
-# Website Dusun Dokgarut
+# Website Dusun Tekil
 
-Situs profil **Dusun Dokgarut, Desa Watukarung, Kecamatan Pringkuku, Kabupaten Pacitan, Jawa Timur** — dusun pesisir di selatan Jawa yang dikenal dengan pantai karang dan ombak kelas dunia.
+Situs profil **Dusun Tekil, Desa Watukarung, Kecamatan Pringkuku, Kabupaten Pacitan, Jawa Timur** — dusun pesisir di selatan Jawa yang dikenal dengan pantai karang dan ombak kelas dunia.
 
-Dibangun oleh **Tim KKN 34 UKDW 2025**.
+Dibangun oleh **Kelompok 30 KKN UKDW Dusun Tekil** — Alphantius Vincent.
 
 ## Fitur
 

@@ -2,9 +2,9 @@ import React from 'react';
 import { Heading, ListItem, Stack, Text, UnorderedList } from '@chakra-ui/react';
 
 const BATAS_DESA = [
-  'Sebelah Utara: Desa Dersono',
-  'Sebelah Selatan: Dusun Karangnongko',
-  'Sebelah Barat: Desa Dersono',
+  'Sebelah Utara: Dusun Dokgarut',
+  'Sebelah Selatan: Samudera Hindia',
+  'Sebelah Barat: Dusun karangnongko',
   'Sebelah Timur: Desa Jlubang',
 ];
 
