@@ -159,7 +159,7 @@ export default function NewsDetail() {
   ].slice(0, 3);
 
   const pageUrl = typeof window !== 'undefined' ? window.location.href : '';
-  const shareText = encodeURIComponent(`${item.title} — Dusun Dokgarut\n${pageUrl}`);
+  const shareText = encodeURIComponent(`${item.title} — Dusun Tekil\n${pageUrl}`);
 
   const copyLink = async () => {
     try {
@@ -183,7 +183,7 @@ export default function NewsDetail() {
   return (
     <Box>
       <Helmet>
-        <title>{`${item.title} — Dusun Dokgarut`}</title>
+        <title>{`${item.title} — Dusun Tekil`}</title>
         <meta name="description" content={item.caption} />
       </Helmet>
 
@@ -265,6 +265,7 @@ export default function NewsDetail() {
             variant="outline"
             leftIcon={<FaWhatsapp />}
           >
+            
             WhatsApp
           </Button>
           <Button

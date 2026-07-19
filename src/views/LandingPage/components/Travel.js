@@ -11,9 +11,9 @@ const Travel = () => {
       <Container maxW="7xl" px={{ base: 5, md: 8 }}>
         <Reveal>
           <SectionHeading
-            kicker="JELAJAHI DOKGARUT"
+            kicker="JELAJAHI TEKIL"
             title="Destinasi & Fasilitas Wisata"
-            description="Pantai karang, sungai jernih, hingga area camping di sekitar Dusun Dokgarut."
+            description="Pantai karang, sungai jernih, hingga area camping di sekitar Dusun Tekil."
           />
         </Reveal>
         <Reveal delay={0.1}>

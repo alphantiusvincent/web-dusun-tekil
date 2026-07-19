@@ -36,7 +36,7 @@ const Hero = () => {
       <Box
         bgImage={`${HERO_OVERLAY}, url(${heroImage})`}
         bgSize="cover"
-        // Posisi atas agar kaligrafi "Dusun Dokgarut" bawaan ilustrasi tidak terpotong
+        // Posisi atas agar kaligrafi "Dusun Tekil" bawaan ilustrasi tidak terpotong
         bgPosition="center top"
         minH={{ base: '88vh', md: '86vh' }}
         sx={{
@@ -87,7 +87,7 @@ const Hero = () => {
                 fontWeight={800}
                 lineHeight={1.05}
               >
-                Dusun Dokgarut, Pesona Pesisir Selatan Jawa
+                Dusun Tekil, Pesona Pesisir Selatan Jawa
               </Heading>
             </motion.div>
 

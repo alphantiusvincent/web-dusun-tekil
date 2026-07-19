@@ -11,7 +11,7 @@ export default function LandingPage() {
   return (
     <>
       <Helmet>
-        <title>Dusun Dokgarut — Desa Watukarung, Pacitan</title>
+        <title>Dusun Tekil — Desa Watukarung, Pacitan</title>
       </Helmet>
       <Hero />
       <LatestNews />

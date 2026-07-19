@@ -21,7 +21,7 @@ test('menampilkan artikel lengkap sesuai id', () => {
   expect(
     screen.getByRole('heading', {
       level: 1,
-      name: /Edukasi Perilaku Hidup Bersih dan Sehat/i,
+      name: /Sosialisasi pernikahan dini/i,
     })
   ).toBeInTheDocument();
   // Paragraf pembuka artikel ikut ter-render

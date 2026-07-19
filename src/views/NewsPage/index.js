@@ -31,8 +31,8 @@ export default function NewsPage() {
       <PageHeader
         kicker="KABAR DUSUN"
         title="Berita Dusun"
-        htmlTitle="Berita — Dusun Dokgarut"
-        description="Kabar kegiatan pemerintahan, pendidikan, dan kesehatan di Dusun Dokgarut."
+        htmlTitle="Berita — Dusun Tekil"
+        description="Kabar kegiatan pemerintahan, pendidikan, dan kesehatan di Dusun Tekil."
         breadcrumb={[{ label: 'Beranda', to: '/' }, { label: 'Berita' }]}
       />
 

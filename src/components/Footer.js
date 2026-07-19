@@ -88,13 +88,6 @@ export default function Footer() {
             <Link href="https://wa.me/6283171461357" isExternal {...footerLinkStyle}>
               Telepon / WhatsApp
             </Link>
-            <Link
-              href="https://www.google.com/maps/place/Dokgarut,+Watukarung,+Pringkuku,+Pacitan+Regency,+East+Java"
-              isExternal
-              {...footerLinkStyle}
-            >
-              Lihat lokasi di Google Maps
-            </Link>
           </Stack>
 
           {/* Tentang situs */}

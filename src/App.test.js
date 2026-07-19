@@ -10,6 +10,6 @@ test('menampilkan nama dusun', () => {
       <App />
     </MemoryRouter>
   );
-  const elements = screen.getAllByText(/Dusun Dokgarut/i);
+  const elements = screen.getAllByText(/Dusun Tekil/i);
   expect(elements.length).toBeGreaterThan(0);
 });

@@ -16,7 +16,7 @@ const PageHeader = ({ kicker, title, description, breadcrumb = [], htmlTitle }) 
   return (
     <Box bg="bg.subtle" borderBottom="1px solid" borderColor="border.default" py={{ base: 10, md: 14 }}>
       <Helmet>
-        <title>{htmlTitle || `${title} — Dusun Dokgarut`}</title>
+        <title>{htmlTitle || `${title} — Dusun Tekil`}</title>
       </Helmet>
       <Container maxW="7xl" px={{ base: 5, md: 8 }}>
         {breadcrumb.length > 0 && (

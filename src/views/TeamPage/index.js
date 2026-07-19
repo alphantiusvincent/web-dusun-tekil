@@ -88,7 +88,7 @@ export default function TeamPage() {
         kicker="DI BALIK SITUS INI"
         title="Tim KKN 30 UKDW"
         htmlTitle="Tim KKN — Dusun Tekil"
-        description="Tujuh mahasiswa lintas program studi yang tinggal, belajar, dan berkarya bersama warga Dusun Dokgarut."
+        description="Tujuh mahasiswa lintas program studi yang tinggal, belajar, dan berkarya bersama warga Dusun Tekil."
         breadcrumb={[{ label: 'Beranda', to: '/' }, { label: 'Tim KKN' }]}
       />
 

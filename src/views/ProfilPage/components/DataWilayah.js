@@ -2,10 +2,10 @@ import React from 'react';
 import { AspectRatio, Box, Grid, Heading, SimpleGrid, Stack, Text } from '@chakra-ui/react';
 
 const MAPS_EMBED_SRC =
-  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.8690425272453!2d110.98633542456075!3d-8.215922632445963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7bdc2d224ce15d%3A0x25c411bc9b209517!2sTekil%2C%20Watukarung%2C%20Kec.%20Pringkuku%2C%20Kabupaten%20Pacitan%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1784115160100!5m2!1sid!2sid';
+  'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3588.9464305849383!2d110.98484257500944!3d-8.215884191816519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTInNTcuMiJTIDExMMKwNTknMTQuNyJF!5e1!3m2!1sid!2sid!4v1784437238456!5m2!1sid!2sid';
 
 // Data administratif tingkat DUSUN (penduduk 164 jiwa = hasil Sensus 2025
-// khusus Dusun Dokgarut, bukan total Desa Watukarung).
+// khusus Dusun Tekil, bukan total Desa Watukarung).
 const DATA_DUSUN = [
   { label: 'Nama Resmi', value: 'Dusun Tekil' },
   { label: 'Desa', value: 'Watukarung' },
@@ -92,7 +92,7 @@ const DataWilayah = () => {
       >
         <iframe
           src={MAPS_EMBED_SRC}
-          title="Peta lokasi Dusun Dokgarut"
+          title="Peta lokasi Balai Dusun Tekil"
           loading="lazy"
         />
       </AspectRatio>

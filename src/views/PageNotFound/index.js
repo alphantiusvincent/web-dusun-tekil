@@ -14,7 +14,7 @@ export default function PageNotFound() {
       px={5}
     >
       <Helmet>
-        <title>Halaman tidak ditemukan — Dusun Dokgarut</title>
+        <title>Halaman tidak ditemukan — Dusun Tekil</title>
         <meta name="robots" content="noindex" />
       </Helmet>
 
